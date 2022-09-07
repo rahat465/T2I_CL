@@ -28,7 +28,7 @@ from torch.autograd import Variable
 import torch.backends.cudnn as cudnn
 import torchvision.transforms as transforms
 
-from masks import mask_correlated_samples_2
+from masks import mask_correlated_samples
 from nt_xent import NT_Xent
 
 
